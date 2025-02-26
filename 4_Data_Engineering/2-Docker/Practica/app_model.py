@@ -68,4 +68,4 @@ async def retrain():
         raise HTTPException(status_code=500, detail="Error al reentrenar el modelo. ")
 
 
-uvicorn.run(app)
+# uvicorn.run(app)
